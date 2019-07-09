@@ -1,0 +1,21 @@
+
+Uma Madeireira deseja obter 1000 kg de lenha, 2000 kg de madeira para móveis   e 50 m² de casca de árvore, dispondo de carvalhos e pinheiros, sendo que o carvalho gera 40 kg de lenha 150 kg de madeira e 3m² de casca aproveitável, o pinheiro 100 kg de lenha 60 de madeira e 8 m² de casca aproveitável, o problema deve minimizar os custo sabendo que cada carvalho custa 1500,00 R$ para empresa e cada pinheiro custa 1200,00 R$.
+
+
+
+Carvalho = X 40 L, 50 M, 3 C  
+Pinheiro =  Y100 L, 60 M, 8 C
+
+Função Objetivo
+X = 1500
+Y =1200
+ Z > 1500.x + 1200.y
+
+Restrições 
+
+R1 40X + 100Y >= 1000
+R2 150X + 60Y>= 2000
+R3 3X + 8Y >= 50
+R4 X, Y   N
+R5 X, Y >0
+
